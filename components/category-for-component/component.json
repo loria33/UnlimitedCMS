@@ -1,0 +1,17 @@
+{
+  "info": {
+    "name": "component",
+    "icon": "ambulance"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  },
+  "connection": "default",
+  "collectionName": "components_category_for_component_components"
+}

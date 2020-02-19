@@ -1,0 +1,31 @@
+{
+  "connection": "default",
+  "collectionName": "blog_items",
+  "info": {
+    "name": "BlogItem"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "DescriptionLong": {
+      "type": "richtext"
+    },
+    "dateofItem": {
+      "type": "datetime"
+    },
+    "thumbnails": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": true
+    }
+  }
+}

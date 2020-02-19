@@ -1,0 +1,21 @@
+{
+  "connection": "default",
+  "collectionName": "pages",
+  "info": {
+    "name": "Pages"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "pageName": {
+      "type": "string",
+      "required": true,
+      "minLength": 1
+    },
+    "blog_categories": {
+      "collection": "blog-category"
+    }
+  }
+}
